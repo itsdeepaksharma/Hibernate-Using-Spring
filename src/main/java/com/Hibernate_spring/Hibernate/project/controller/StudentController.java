@@ -186,5 +186,25 @@ public class StudentController {
         headers.add("X-Error-Code", String.valueOf(status.value()));
         
         return new ResponseEntity<>(errorResponse, headers, status);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
